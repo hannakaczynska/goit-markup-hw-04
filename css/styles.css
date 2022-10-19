@@ -135,6 +135,10 @@ ul {
 }
 
 /* html 2nd section */
+.paragraph_section {
+  padding-bottom: 0;
+}
+
 .paragraph_list {
   font-size: 14px;
   letter-spacing: 0.03em;
