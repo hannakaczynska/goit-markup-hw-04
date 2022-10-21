@@ -101,6 +101,8 @@ ul {
 .title_section {
   text-align: center;
   background-color: var(--background-brand-color);
+  background-image: url('../images/imgbackground.jpg');
+  background-size: cover;
   width: 1600px;
   margin: 0 auto;
   padding-top: 200px;
