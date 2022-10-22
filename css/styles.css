@@ -247,29 +247,31 @@ ul {
   padding-top: 16px;
   padding-right: 32px;
   padding-left: 32px;
-}
-
-.social_links_icons a {
-  height: 20px;
-  width: 20px;
+  justify-content: space-between;
 }
 
 .social_links_icons li {
   width: 44px;
   height: 44px;
-  border-radius: 50%;
+}
+
+.social_links_icons a {
   display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: rgba(175, 177, 184, 1);
   justify-content: center;
   align-items: center;
 }
 
-.social_links_icons li:hover,
-.social_links_icons li:focus {
-background-color: var(--brand-color);
+.social_links_icons a:hover,
+.social_links_icons a:focus {
+  background-color: var(--brand-color);
+  fill: var(--third-brand-color);
 }
 
 /* html 5th section - our clients */
-
 .logo_icons_list {
   display: flex;
   gap: 30px;
@@ -285,11 +287,13 @@ background-color: var(--brand-color);
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
   cursor: pointer;
+  fill: rgba(175, 177, 184, 1);
 }
 
 .logo_icons_list a:hover,
 .logo_icons_list a:focus {
   border: 1px solid var(--brand-color);
+  fill: var(--brand-color);
 }
 
 /* footer */
@@ -359,12 +363,13 @@ background-color: var(--brand-color);
   padding: 0;
 }
 
-.footer_list .social_links_icons li {
-  background-color: rgba(255, 255, 255, 0.1);
+.footer_list .social_links_icons a {
+  fill: var(--third-brand-color);
+  background-color: rgba(255, 255, 255, 0.1)
 }
 
-.footer_list .social_links_icons li:hover,
-.footer_list .social_links_icons li:focus {
+.footer_list .social_links_icons a:hover,
+.footer_list .social_links_icons a:focus {
   background-color: var(--brand-color);
 }
 
